@@ -20,6 +20,8 @@ export default {
 <style lang="scss">
 .users-page {
 	background-color: #fff;
+	height: 60vw;
 	padding: 1rem;
+    overflow: scroll;
 }
 </style>

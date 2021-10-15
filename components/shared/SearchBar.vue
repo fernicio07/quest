@@ -5,10 +5,8 @@
 			v-model="query"
 			type="text"
 			class="fa form-control__input"
-			placeholder="User name or description"
-			aria-label="User name or description"
-			aria-describedby="basic-addon2"
-			@input="handleChange"
+			placeholder="Search by name, title or email and press enter"
+			@keydown.enter="handleChange"
 		/>
 	</div>
 </template>

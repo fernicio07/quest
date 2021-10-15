@@ -45,6 +45,20 @@ export default {
   modules: [
   ],
 
+  router: {
+    base: '/',
+    extendRoutes (routes, resolve) {
+      routes.push(
+        {
+          name: 'search',
+          path: '/search/:searchKey', // <--- change this
+          component: resolve(__dirname, 'pages/index.vue'),
+          chunkName: 'pages/index'
+        },
+      )
+    }
+  },
+
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
