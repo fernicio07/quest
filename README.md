@@ -1,6 +1,6 @@
 # quest
 
-## Preview URL
+## Demo
 
 https://quest-seven.vercel.app/
 
